@@ -8,13 +8,13 @@
 
 on:
   schedule:
-    - cron: '5 13 * * *'
+    - cron: '5 9 * * *'
   workflow_dispatch:
     branches: [main]
 
 jobs:
   render:
-    name: update_diario_esus_notifica
+    name: positividade
 
     runs-on: ubuntu-latest
 
